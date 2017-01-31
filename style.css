@@ -1,0 +1,117 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.fullscreen {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  overflow-y: auto;
+}
+
+#splash {
+  background-image: url('./img/birds_1600x1200.png');
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#splash.tall {
+  background-size: auto 100%;
+}
+
+#splash-content {
+  position: relative;
+  top: 30%;
+}
+
+#maintitle {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 300;
+  font-size: 4em;
+  letter-spacing: 8px;
+
+  width: 6em;
+  height: 2em;
+  line-height: 2em;
+  border-bottom: 2px solid;
+  position: relative;
+  margin: auto;
+}
+
+.definition {
+  text-align: left;
+  margin-top: 2em;
+  position: absolute;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+  line-height: 1.2em;
+}
+
+.definition:first-of-type {
+  display: none;
+}
+
+.pronounce {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.wordtype {
+  font-style: italic;
+}
+
+#social {
+  position: relative;
+  margin-top: 3em;
+  text-align: center;
+
+  padding-top: 5em;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  padding: 1em;
+}
+
+
+@media all and (max-width: 480px) {
+
+  #splash-content {
+    top: 20%;
+  }
+  #maintitle {
+    font-size: 2.5em;
+
+    width: 6em;
+    height: 2em;
+    line-height: 2em;
+    border-bottom: 2px solid;
+    position: relative;
+    margin: auto;
+  }
+
+  .definition {
+    text-align: left;
+    margin-top: 2em;
+    position: absolute;
+    left: 50%;
+    width: 150px;
+    margin-left: -75px;
+    line-height: 1.2em;
+  }
+
+  .pronounce {
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+
+  .icon {
+    padding: 0.5em;
+  }
+}
