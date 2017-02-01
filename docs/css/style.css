@@ -63,7 +63,7 @@ body {
 }
 
 #splash {
-  background-image: url('./img/birds_1600x1200.png');
+  background-image: url('../img/birds_1600x1200.png');
   background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat;
