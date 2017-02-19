@@ -50,13 +50,11 @@ title: NESTLING | Meditative audio-controlled exploration game
 <div class='infoblock' id='blog-list'>
   <h2>Devblog</h2>
   <ul class='allposts'>
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts %}
     <li>
       <div class='blogimg-container'>
       <img src='{{ post.image }}' /></div>
-      <span>{{ post.date | date_to_string }}</span><a href='{{ post.url | prepend: site.github.url }}' title='{{ post.title }}'>
-        {{ post.title }}
-      </a>
+      <span>{{ post.date | date_to_string }}</span><a href='{{ post.url | prepend: site.github.url }}' title='{{ post.title }}'>{{ post.title }}</a>
     </li>
     {% endfor %}
     <!-- <a id='viewall' href='#'>View all posts &rarr;</a> -->
