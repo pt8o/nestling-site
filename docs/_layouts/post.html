@@ -2,9 +2,41 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div id='post-container'>
+  <div id='post-top' style='background-image:url({{ page.image | prepend:site.github.url }});'>
+    <div class='post-meta'>
+      <p class='post-date'>{{ page.date | date_to_string }}</p><br/>
+      <h1 class='post-title'>{{ page.title }}</h1>
+    </div>
+  </div>
 
-<div class="post">
-  {{ content }}
+  <div class='post-content'>
+    <!-- <div class='post-sidebar'>
+      <div class='post-portrait'>
+        Portrait
+      </div>
+      <div class='post-author'>
+        Lucas
+      </div>
+    </div> -->
+    <div class='post-text'>
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+<div class='infoblock' id='blog-list'>
+  <h2>Devblog</h2>
+  <ul class='allposts'>
+    {% for post in site.posts limit:10 %}
+    <li>
+      <div class='blogimg-container'>
+      <img src='{{ post.image prepend | site.github.url }}' /></div>
+      <span>{{ post.date | date_to_string }}</span>{% if page.title == post.title %}
+      &rarr;
+      {% endif %}<a href='{{ post.url | prepend: site.github.url }}' title='{{ post.title }}'>{{ post.title }}</a>
+    </li>
+    {% endfor %}
+    <!-- <a id='viewall' href='#'>View all posts &rarr;</a> -->
+  </ul>
 </div>

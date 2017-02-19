@@ -5,7 +5,7 @@ title: NESTLING | Meditative audio-controlled exploration game
 
 <div class='fullscreen' id='splash'>
   <div id='splash-content'>
-    <div id='maintitle'>NESTLING</div>
+    <h1 id='maintitle'>NESTLING</h1>
 
     <div class='definitions'>
       <div class='definition' id='noun'><span class='pronounce'>\ˈnest-liŋ\</span><br/>
@@ -19,4 +19,46 @@ title: NESTLING | Meditative audio-controlled exploration game
       <a href='https://www.facebook.com/nestling.game/'><img class='icon' src='./img/fb.png'/></a>
     </div>
   </div>
+</div>
+
+<div class='infoblock' id='about'>
+  <h2>About</h2>
+  <p><i>Nestling</i> is a bird that has not yet left the nest, the act of settling snugly or comfortably, and a meditative video game about birdwatching.</p>
+  <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+</div>
+
+<div class='infoblock' id='team'>
+  <h2>Who are we?</h2>
+  <p></p>
+  <div class='profile'>
+    <div class='portrait'></div>
+    <h3>Ana Tavera Mendoza</h3>
+    <p>Visual lead: models, animations, shaders, concept art.</p>
+  </div>
+  <div class='profile'>
+    <div class='portrait'></div>
+    <h3>Steven Ramos</h3>
+    <p>Programming: character controls, environment & bird generation, screenshot catalogue.</p>
+  </div>
+  <div class='profile'>
+    <div class='portrait'></div>
+    <h3>Lucas Huang</h3>
+    <p>Audio lead: ambient sounds, bird calls, microphone input controller.</p>
+  </div>
+</div>
+
+<div class='infoblock' id='blog-list'>
+  <h2>Devblog</h2>
+  <ul class='allposts'>
+    {% for post in site.posts limit:10 %}
+    <li>
+      <div class='blogimg-container'>
+      <img src='{{ post.image }}' /></div>
+      <span>{{ post.date | date_to_string }}</span><a href='{{ post.url | prepend: site.github.url }}' title='{{ post.title }}'>
+        {{ post.title }}
+      </a>
+    </li>
+    {% endfor %}
+    <!-- <a id='viewall' href='#'>View all posts &rarr;</a> -->
+  </ul>
 </div>
