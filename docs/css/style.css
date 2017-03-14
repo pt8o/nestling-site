@@ -235,7 +235,6 @@ h2 {
 }
 #team .portrait {
 	float: left;
-	background-color: grey;
 	width: 150px;
 	height: 150px;
 	border-radius: 75px;
@@ -322,11 +321,22 @@ h2 {
 }
 
 .post-date, .post-author {
+	position: relative;
 	display: inline-block;
 	text-transform: uppercase;
 	font-size: 16px;
 	margin-right: 10px;
 	box-sizing: border-box;
+}
+
+#post-container .post-portrait {
+	position: absolute;
+	right: -52px;
+	top: 0;
+	height: 40px;
+	width: 40px;
+	padding: 0;
+	display: inline-block;
 }
 
 .post-title {

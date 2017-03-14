@@ -3,6 +3,7 @@ layout: post
 title: "This is a test blog post"
 date: 2017-01-31
 image: /nestling-site/img/bird-example.jpg
+author: lucas
 ---
 
 <h2>This is a sample blog post to show you how Jekyll works.</h2>
