@@ -34,9 +34,16 @@ layout: default
     <li>
       <div class='blogimg-container'>
       <img src='{{ post.image prepend | site.github.url }}' /></div>
-      <span>{{ post.date | date_to_string }}</span>{% if page.title == post.title %}    &rarr; {% endif %}<a href='{{ post.url | prepend: site.github.url }}' title='{{ post.title }}'>{{ post.title }}</a>
+      <span class='post-date'>{{ post.date | date_to_string }}</span>{% if page.title == post.title %} <div id='post-arrow'>&rarr;</div> {% endif %}<a href='{{ post.url | prepend: site.github.url }}' title='{{ post.title }}'>{{ post.title }}</a>
     </li>
     {% endfor %}
     <!-- <a id='viewall' href='#'>View all posts &rarr;</a> -->
   </ul>
 </div>
+
+<footer>
+  <a href='http://nestling-game.com'><img class='icon' src='/nestling-site/img/home.png'/></a>
+  <a href='https://twitter.com/nestling_game'><img class='icon' src='/nestling-site/img/twitter.png'/></a>
+  <a href='https://www.facebook.com/nestling.game/'><img class='icon' src='/nestling-site/img/fb.png'/></a>
+  <a href='mailto:chirp@nestling-game.com'><img class='icon' src='/nestling-site/img/mail.png'/></a>
+</footer>
