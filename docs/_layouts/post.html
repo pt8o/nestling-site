@@ -34,7 +34,7 @@ layout: default
     <li>
       <div class='blogimg-container'>
       <img src='{{ post.image prepend | site.github.url }}' /></div>
-      <span class='post-date'>{{ post.date | date_to_string }}</span>{% if page.title == post.title %} <div id='post-arrow'>&rarr;</div> {% endif %}<a href='{{ post.url | prepend: site.github.url }}' title='{{ post.title }}'>{{ post.title }}</a>
+      <span class='post-date'>{{ post.date | date_to_string }}</span>{% if page.title == post.title %}<div id='post-arrow'>&rarr;</div> {% endif %}<a href='{{ post.url | prepend: site.github.url }}' title='{{ post.title }}'>{{ post.title }}</a>
     </li>
     {% endfor %}
     <!-- <a id='viewall' href='#'>View all posts &rarr;</a> -->
