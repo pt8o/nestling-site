@@ -70,6 +70,10 @@ h2 {
 	font-weight: 700;
 }
 
+p {
+	line-height: 1.5em;
+}
+
 .infoblock {
 	box-sizing: border-box;
 	padding: 80px 50px;
