@@ -80,7 +80,7 @@ p {
 		position: relative;
 		width: 992px:
 		left: 50%;
-		margin-left: 446px;
+		margin-left: -446px;
 	}
 }
 
