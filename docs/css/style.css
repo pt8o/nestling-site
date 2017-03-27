@@ -74,16 +74,6 @@ p {
 	line-height: 1.5em;
 }
 
-
-@media all and (min-width: 992px) {
-	.container {
-		position: relative;
-		width: 992px:
-		left: 50%;
-		margin-left: -446px;
-	}
-}
-
 .infoblock {
 	box-sizing: border-box;
 	padding: 80px 50px;
