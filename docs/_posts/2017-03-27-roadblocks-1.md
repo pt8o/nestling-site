@@ -2,7 +2,7 @@
 layout: post
 title: "Roadblocks, pt. 1"
 date: 2017-03-27
-image: /nestling-site/img/birds_1600x1200.png
+image: /nestling-site/img/audio-visualizer.png
 author: lucas
 ---
 
