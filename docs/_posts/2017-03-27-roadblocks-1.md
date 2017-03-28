@@ -23,7 +23,9 @@ author: lucas
 <h2>No back up even more. How does <i>sound</i> work?</h2>
 <p>Oh, OK!</p>
 
-<p><div id='logarithmic'></div>Sound is literally airwaves. (Or water waves, if you're underwater. Or, like, oil waves, if you're submerged in a vat of oil for some reason?) That's all it is! Waves propagate at various <b>frequencies</b> (measured in Hertz of Hz); as in, they oscillate a certain number of times per second. We animal creatures interpret these frequencies as <b>pitch</b>; higher pitched sounds correspond to waves oscillating at a higher frequency. Here's the catch: our hearing is logarithmic. What sounds like a linear increase in pitch is actually an <i>exponential</i> increase in frequency.</p>
+<div id='logarithmic' style='display:none;'></div>
+
+<p>Sound is literally airwaves. (Or water waves, if you're underwater. Or, like, oil waves, if you're submerged in a vat of oil for some reason?) That's all it is! Waves propagate at various <b>frequencies</b> (measured in Hertz of Hz); as in, they oscillate a certain number of times per second. We animal creatures interpret these frequencies as <b>pitch</b>; higher pitched sounds correspond to waves oscillating at a higher frequency. Here's the catch: our hearing is logarithmic. What sounds like a linear increase in pitch is actually an <i>exponential</i> increase in frequency.</p>
 
 <p>Hold on to that idea; we'll come back to it later.</p>
 
