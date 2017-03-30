@@ -277,15 +277,16 @@ footer {
 	padding: 1vw;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 530px) {
 	#team .profile {
 		margin-top: 50px;
 		text-align: center;
-		height: 250px;
+		height: auto;
 	}
 	#team .portrait {
 		float: none;
 		margin: none;
+		margin-right: 0;
 		width: 100px;
 		height: 100px;
 	}
