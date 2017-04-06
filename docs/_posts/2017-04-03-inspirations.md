@@ -51,4 +51,4 @@ author: lucas
 
 <p>We'll end with the quote that opens our game's trailer:</p>
 
-<p>“Live in each season as it passes; breathe the air, drink the drink, taste the fruit, and resign yourself to the influence of the earth.”</p>
+<p><blockquote>“Live in each season as it passes; breathe the air, drink the drink, taste the fruit, and resign yourself to the influence of the earth.”</blockquote></p>
