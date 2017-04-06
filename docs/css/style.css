@@ -74,6 +74,13 @@ p {
 	line-height: 1.5em;
 }
 
+blockquote {
+	padding: 20px 60px;
+	font-size: 120%;
+	line-height: 1.5em;
+	font-style: italic;
+}
+
 .infoblock {
 	box-sizing: border-box;
 	padding: 80px 50px;
