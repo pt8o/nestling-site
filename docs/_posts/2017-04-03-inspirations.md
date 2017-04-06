@@ -28,7 +28,7 @@ author: lucas
 
 <p>We really love the idea of building a world that a player can enter and leave as they please, with no pressure to complete predetermined goals and no real risks or dangers. It's a nice contrast from the intricately goal-oriented, directive, and sometimes downright stressful atmosphere of most games. <i>Neko Atsume</i> clearly found its audience; we hope we can find ours! </p>
 
-<p><i>Neko Atsume</i> is available on iPhone through the App Store and Android through Google Play.</p>
+<p><i>Neko Atsume</i> is available on iPhone through the App Store and on Android through Google Play.</p>
 
 <h2>Proteus</h2>
 
