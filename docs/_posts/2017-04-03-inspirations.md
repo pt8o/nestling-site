@@ -11,7 +11,7 @@ author: lucas
 <p>As you may have gathered from <a href='###'>the trailer</a>, <i>Nestling</i> is a very calm, atmospheric game. There's not a lot of action, and frankly there's not a lot to <i>do</i>. "Collecting" (photographing) the birds is maybe a bit of a conventional game element, but ultimately we want the emphasis to be on the mood and the environment, and the peaceful exploration. Here are some of our main inspirations:</p>
 
 <h2>Lieve Oma</h2>
-<img src='/nestling-site/img/inspo-lieveoma-2.png'/>
+<img src='/nestling-site/img/inspo-lieveoma-1.png'/>
 
 <p>A charming, wistful, and partly autobiographical game by one-man-studio Florian Veltman, <i>Lieve Oma</i> is about a teenager (the player) picking wild mushrooms with his grandmother, who tries to use the opportunity to get her withdrawn grandchild to open up about some of the recent difficulties he's been facing in his life. It's an earnest and endearingly personal creation, which makes it quite compelling to play even without any conventional "game mechanics."</p>
 
