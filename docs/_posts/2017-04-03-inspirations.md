@@ -20,7 +20,7 @@ author: lucas
 <p><i>Lieve Oma</i> is available directly from the developer at <a href='https://vltmn.itch.io/lieve-oma'>itch.io</a>.</p>
 
 <h2>Neko Atsume</h2>
-<p><img src='https://upload.wikimedia.org/wikipedia/en/d/da/Neko_atsume_screenshot.jpeg/></p>
+<img class='vertical' src='https://upload.wikimedia.org/wikipedia/en/d/da/Neko_atsume_screenshot.jpeg/'>
 
 <p>This simple, casual game for mobile devices was an unexpected smash hit, with over 4 million downloads. Is it <i>inspiring</i> though?</p>
 
@@ -41,7 +41,7 @@ author: lucas
 <p><i>Proteus</i> is available directly from the developers on <a href='https://twistedtree.itch.io/proteus'>itch.io</a>.</p>
 
 <h2>Walden by Henry David Thoreau</h2>
-<p><img src='https://upload.wikimedia.org/wikipedia/commons/9/91/1854_Walden_byThoreau.jpg'/></p>
+<img class='vertical' src='https://upload.wikimedia.org/wikipedia/commons/9/91/1854_Walden_byThoreau.jpg'/>
 
 <p>I believe strongly that drawing inspiration from outside of games makes games more interesting, so I'm including this classic book by Thoreau in the list, which, for me at least, has informed the overarching concepts behind <i>Nestling</i>.</p>
 
