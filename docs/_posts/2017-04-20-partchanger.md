@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Weekly #4: Flight animation!"
+title: "Weekly #4: Bird part changer"
 date: 2017-04-20
 image: /nestling-site/img/trailer.jpg
 author: lucas
